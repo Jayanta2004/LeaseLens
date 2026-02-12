@@ -25,7 +25,7 @@ LeaseLens is an intelligent contract analysis tool that uses AI to review lease 
 
 ### Backend
 - **Flask** - Python web framework
-- **Google Gemini AI** - Document analysis and chat
+- **OpenAI API** - Document analysis and chat
 - **PyPDF2** - PDF text extraction
 - **Pillow** - Image processing
 - **pytesseract** - OCR for images
@@ -35,7 +35,7 @@ LeaseLens is an intelligent contract analysis tool that uses AI to review lease 
 ### Prerequisites
 - Node.js 18+ and npm
 - Python 3.8+
-- Google Gemini API key
+- OpenAI API key
 
 ### Backend Setup
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 3. Create `.env` file:
 ```env
-GEMINI_API_KEY=your_gemini_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 4. Start the Flask server:
@@ -110,7 +110,7 @@ leaselens/
 
 ### Backend (.env)
 ```env
-GEMINI_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_api_key_here
 ```
 
 ### Frontend (optional)
@@ -178,7 +178,7 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Google Gemini AI for powerful language models
+- OpenAI for powerful language models
 - Next.js team for the amazing framework
 - Tailwind CSS for beautiful styling utilities
 
